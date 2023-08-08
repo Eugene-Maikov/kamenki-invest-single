@@ -1,0 +1,168 @@
+/* ---------------- Header ---------------- */
+.header {
+	/*max-height: 157px;*/
+	/*min-height: 157px;*/
+	width: 100%;
+	padding: 46px 0 40px 0;
+	background: var(--white-color);
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.header__logo {
+	width: 304px;
+	height: 54px;
+}
+
+.header__logo img {
+	width: 100%;
+	height: 100%;
+}
+
+.header__contacts {
+	display: flex;
+	align-items: center;
+}
+
+.header__address {
+	display: flex;
+	align-items: flex-start;
+}
+
+.header__address img {
+	width: 27px;
+	height: 27px;
+	margin-right: 8px;
+}
+
+.header__address p {
+	color: var(--dark-color);
+	font-family: 'Myriad Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: normal;
+	display: block;
+	max-width: 240px;
+	min-width: 240px;
+}
+
+.header__call {
+	display: flex;
+	flex-direction: column;
+	margin-left: 96px;
+}
+
+.header__number {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.header__number img {
+	width: 27px;
+	height: 27px;
+	margin-right: 12px;
+}
+
+.header__number a {
+	color: var(--dark-color);
+	font-family: 'Museo Sans Cyrl', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-decoration: none;
+}
+
+.header__button a {
+	color: var(--white-color);
+	font-family: 'Myriad Pro', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	border-radius: 10px;
+	background: #FFA200;
+	width: 223px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+/* ------------ Nav ------------ */
+.header__nav {
+	border-radius: 0 0 15px 15px;
+	background: var(--secondary-color);
+	width: 100%;
+	position: absolute;
+	bottom: -103px;
+	padding: 20px 48px;
+}
+
+.header__nav-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav-item a {
+	color: var(--white-color);
+	font-family: 'Museo Sans Cyrl', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: none;
+}
+
+/* ------------ end Nav ------------ */
+/* ------------ Breadcrumbs ------------ */
+.breadcrumbs {
+	position: absolute;
+	bottom: -178px;
+}
+
+.breadcrumbs ul {
+	display: flex;
+}
+
+.breadcrumbs ul li a,
+.breadcrumbs ul li span {
+	color: var(--white-color);
+	font-family: 'Museo Sans Cyrl', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: none;
+}
+.breadcrumbs ul li a{
+	position: relative;
+}
+.breadcrumbs ul li a:after{
+	content: '';
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3e%3cpath d='M10 17L15 12L10 7' stroke='%23FFA200' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+}
+
+/* ------------ end breadcrumbs ------------ */
+/* ---------------- end Header ---------------- */
+
+/* ----------------  Intro ---------------- */
+.intro {
+	background-image: url('/assets/img/single-project/intro-bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 550px;
+	min-height: 550px;
+}
+
+/* ---------------- end Intro ---------------- */

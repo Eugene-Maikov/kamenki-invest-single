@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
+
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	font-weight: 600;
+	src: local('Museo Sans Cyrl'), url('/assets/fonts/MuseoSansCyrl500.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Myriad Pro';
+	font-weight: 600;
+	src: local('Myriad Pro'), url('/assets/fonts/MyriadPro-Semibold.woff2') format('woff2');
+}
+
+:root {
+	--primary-color: #FFA200;
+	--secondary-color: #86BB2A;
+	--white-color: #FFFFFF;
+	--dark-color: #000000;
+	--text-color: #5E5E60;
+	--text-color-var: #5A5C60;
+	--bg-color: #F6F6F6;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	font-weight: 400;
+	line-height: 30px;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	font-family: 'OpenSans', sans-serif;
+	color: var(--text-color);
+	background: var(--bg-color);
+}
+.container{
+	max-width: 1150px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+img{
+	display: block;
+}
+
+
+/* ------------- reset -------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
