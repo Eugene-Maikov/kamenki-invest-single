@@ -19,6 +19,10 @@
 	--text-color: #5E5E60;
 	--text-color-var: #5A5C60;
 	--bg-color: #F6F6F6;
+
+	--font-myriard-pro: 'Myriad Pro', sans-serif;
+	--font-museo-sans: 'Museo Sans Cyrl', sans-serif;
+	--font-open-sans: 'OpenSans', sans-serif;
 }
 
 html {
@@ -39,7 +43,7 @@ body {
 	font-size: 20px;
 	margin: 0;
 	padding: 0;
-	font-family: 'OpenSans', sans-serif;
+	font-family: var(--font-open-sans);
 	color: var(--text-color);
 	background: var(--bg-color);
 }
@@ -51,6 +55,13 @@ body {
 
 img{
 	display: block;
+}
+.single-title{
+	color: var(--text-color);
+	font-family: var(--font-myriard-pro);
+	font-size: 45px;
+	font-weight: 600;
+	line-height: normal;
 }
 
 
