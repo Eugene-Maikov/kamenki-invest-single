@@ -48,7 +48,7 @@ body {
 	background: var(--bg-color);
 }
 .container{
-	max-width: 1150px;
+	max-width: 1230px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -63,8 +63,21 @@ img{
 	font-weight: 600;
 	line-height: normal;
 }
-
-
+@media screen and (max-width: 1200px) {
+	.single-title{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container{
+		max-width: 678px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.single-title {
+		font-size: 24px;
+	}
+}
 /* ------------- reset -------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
